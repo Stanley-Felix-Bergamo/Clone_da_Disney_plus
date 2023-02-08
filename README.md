@@ -1,12 +1,13 @@
-# Clone do Disney+
+# Clone do Disney+ <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20Pronto&color=GREEN&style=for-the-badge"/>
+
+
 
 <div align="center" >
     <img width="725rem" src="https://servidor-estaticos-ten.vercel.app/disney-plus.png" alt="imagem">
 </div> 
 <br>
-<p>Saiba mais acessando o projeto  <a href="https://clone-da-disney-plus.vercel.app/">Clicando aki</a>.</p>
 
-
+> Para ver o projeto rodando você pode acessar este [Link](https://clone-da-disney-plus.vercel.app/).
 
 <h2>👨‍🏫 Créditos</h2>
 <p>Este projeto foi realizado nas aulas do Curso de Profissão: Engenheiro Front-end, da <a href="https://ebaconline.com.br/cursos">Ebac</a>.</p>
