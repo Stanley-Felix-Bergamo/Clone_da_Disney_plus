@@ -1,8 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
-
+    //Seção de atrações
     mostrandoAbas();
+    //Seção FAQ, acordion
     abreOuFechaResposta();
+
+    ocultarOuExibirElementosDoHeader();
+
 });
+
+function ocultarOuExibirElementosDoHeader() {
+    const heroSection = document.querySelector('.hero');
+    const alturaHero = heroSection.clientHeight;
+    const header = document.querySelector('header');
+
+    window.addEventListener('scroll', function () {
+        const posicaoAtual = window.scrollY;
+        posicaoAtual < alturaHero ? header.classList.add('header--is-hidden') : header.classList.remove('header--is-hidden');
+    });
+}
 
 function abreOuFechaResposta() {
     const questions = document.querySelectorAll('[data-faq-question]');

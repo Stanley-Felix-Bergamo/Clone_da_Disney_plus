@@ -6,6 +6,11 @@
     text-align: center;
     background-size: cover;
 
+    .button {
+        margin-top: 2vw;
+        margin-bottom: 8px;
+    }
+
     &__content {
         max-width: 640px;
 
@@ -25,7 +30,6 @@
         }
 
         &__combos {
-            list-style: none;
             display: flex;
             justify-content: space-between;
             &__combo {
